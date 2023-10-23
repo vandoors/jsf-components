@@ -22,6 +22,8 @@ import { MhanCalculateComponent } from './mhan-calculate/mhan-calculate.componen
 
 import { PizzaGluerComponent } from './pizza-gluer/pizza-gluer.component';
 
+import { BsListGeneratorComponent } from './bs-list-generator/bs-list-generator.component';
+
 import { MsSubtractionComponent } from './ms-subtraction/ms-subtraction.component';
 
 @NgModule({
@@ -29,9 +31,11 @@ import { MsSubtractionComponent } from './ms-subtraction/ms-subtraction.componen
     AppComponent,
     PizzaToppingsComponent,
     KrlColorMixerComponent
+    , TjsMultiplicationComponent  
+    , PizzaGluerComponent
+    , BsListGeneratorComponent
     , TjsMultiplicationComponent
     , MhanCalculateComponent 
-    , PizzaGluerComponent
     , MsSubtractionComponent
   ],
   imports: [
