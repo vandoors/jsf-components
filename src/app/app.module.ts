@@ -27,6 +27,7 @@ import { JvdImagePickerComponent } from './jvd-image-picker/jvd-image-picker.com
 import { BsListGeneratorComponent } from './bs-list-generator/bs-list-generator.component';
 
 import { MsSubtractionComponent } from './ms-subtraction/ms-subtraction.component';
+import { SnAdditionComponent } from './sn-addition/sn-addition.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { MsSubtractionComponent } from './ms-subtraction/ms-subtraction.componen
     , TjsMultiplicationComponent
     , MhanCalculateComponent 
     , MsSubtractionComponent
+    , SnAdditionComponent
     , JvdImagePickerComponent
   ],
   imports: [
